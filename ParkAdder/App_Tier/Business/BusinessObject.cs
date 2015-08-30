@@ -1,0 +1,6 @@
+﻿
+class BusinessObject
+{
+    public BusinessObject() { }
+
+}
