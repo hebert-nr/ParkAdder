@@ -200,6 +200,11 @@ namespace ParkAdder
             MessageBox.Show("Created for personal use. \nBy Noah Hebert, Nick Dekofski, Caitlin Griffin and Paul Fierce\n©2015", "About");
         }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
 
 
     }
