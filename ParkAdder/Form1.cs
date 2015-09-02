@@ -14,7 +14,11 @@ namespace ParkAdder
     public partial class Form1 : Form
     {
 
+<<<<<<< HEAD
         SqlConnection con = new SqlConnection("Data source = localhost;Initial Catalog=PPF;Integrated Security=True ");
+=======
+        SqlConnection con = new SqlConnection("Data source = localhost;Initial Catalog=thePPF;Integrated Security=True ");
+>>>>>>> b7e3c4ccf1c213a55ebeab0adc9a01c3b073719c
 
         public Form1()
         {
@@ -43,6 +47,7 @@ namespace ParkAdder
                 {
 
                     int featureID = int.Parse(drv.Row[lboFeature.ValueMember].ToString());
+<<<<<<< HEAD
                     SqlCommand addFeat = new SqlCommand("Insert Into FeaturesAtPark (CAST(PID AS NVARCHAR(10)) + '.' + (CAST(FID AS NVARCHAR(10)) AS Combine Values("
                                                         + cboName.SelectedValue + ", " + featureID + ")");
                    
@@ -57,6 +62,16 @@ namespace ParkAdder
                         addFeat.Connection = con;
                         addFeat.ExecuteNonQuery();
                     }
+=======
+
+                   
+                    SqlCommand addFeat = new SqlCommand("IF NOT EXISTS (Select PID, FID From FeaturesAtPark Where PID = " + cboName.SelectedValue + " AND FID = " + featureID + ") Insert Into FeaturesAtPark (PID,FID) Values("
+                                                        + cboName.SelectedValue + ", " + featureID + ")");
+
+                    addFeat.Connection = con;
+                    addFeat.ExecuteNonQuery();
+                    
+>>>>>>> b7e3c4ccf1c213a55ebeab0adc9a01c3b073719c
                 }
 
                 con.Close();
@@ -72,8 +87,13 @@ namespace ParkAdder
 
         private void Form1_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             SqlCommand command = new SqlCommand("SELECT ParkID, ParkName FROM PPF.dbo.Park", con);
             SqlCommand comFeat = new SqlCommand("Select FeatureID, FeatureName FROM PPF.dbo.Feature", con);
+=======
+            SqlCommand command = new SqlCommand("SELECT ParkID, ParkName FROM thePPF.dbo.Park", con);
+            SqlCommand comFeat = new SqlCommand("Select FeatureID, FeatureName FROM thePPF.dbo.Feature", con);
+>>>>>>> b7e3c4ccf1c213a55ebeab0adc9a01c3b073719c
 
             try
             {
@@ -206,6 +226,14 @@ namespace ParkAdder
             MessageBox.Show("Created for personal use. \nBy Noah Hebert, Nick Dekofski, Caitlin Griffin and Paul Fierce\n©2015", "About");
         }
 
+<<<<<<< HEAD
+=======
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+>>>>>>> b7e3c4ccf1c213a55ebeab0adc9a01c3b073719c
 
 
     }
