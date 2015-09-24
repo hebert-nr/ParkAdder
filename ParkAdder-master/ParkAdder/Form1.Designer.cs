@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnClear = new System.Windows.Forms.Button();
             this.btnAddPark = new System.Windows.Forms.Button();
             this.txtAddZip = new System.Windows.Forms.TextBox();
@@ -316,6 +317,7 @@
             this.Controls.Add(this.cboName);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.btnAddFeature);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Park Adder";
             this.Load += new System.EventHandler(this.Form1_Load);
