@@ -37,3 +37,12 @@ C:\Users\Noah\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.csprojRes
 C:\Users\Noah\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.Form1.resources
 C:\Users\Noah\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.Properties.Resources.resources
 C:\Users\Noah\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.csproj.GenerateResource.Cache
+Z:\ParkAdder\ParkAdder-master\ParkAdder\bin\Debug\ParkAdder.exe.config
+Z:\ParkAdder\ParkAdder-master\ParkAdder\bin\Debug\ParkAdder.exe
+Z:\ParkAdder\ParkAdder-master\ParkAdder\bin\Debug\ParkAdder.pdb
+Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.Form1.resources
+Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.Properties.Resources.resources
+Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.csproj.GenerateResource.Cache
+Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.exe
+Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.pdb
+Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.csprojResolveAssemblyReference.cache

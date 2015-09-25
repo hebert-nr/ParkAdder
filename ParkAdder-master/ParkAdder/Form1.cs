@@ -14,7 +14,7 @@ namespace ParkAdder
     public partial class Form1 : Form
     {
 
-        SqlConnection con = new SqlConnection("Data source = localhost;Initial Catalog=PPF;Integrated Security=True ");
+        SqlConnection con = new SqlConnection("Data source = localhost;Initial Catalog=thePPF;Integrated Security=True ");
 
         public Form1()
         {
@@ -52,7 +52,8 @@ namespace ParkAdder
                     addFeat.ExecuteNonQuery();
                     
                 }
-
+                MessageBox.Show("Features Added!");
+                lboFeature.ClearSelected();
                 con.Close();
             }
             catch (SqlException ex)
@@ -66,8 +67,8 @@ namespace ParkAdder
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            SqlCommand command = new SqlCommand("SELECT ParkID, ParkName FROM PPF.dbo.Park", con);
-            SqlCommand comFeat = new SqlCommand("Select FeatureID, FeatureName FROM PPF.dbo.Feature", con);
+            SqlCommand command = new SqlCommand("SELECT ParkID, ParkName FROM thePPF.dbo.Park", con);
+            SqlCommand comFeat = new SqlCommand("Select FeatureID, FeatureName FROM thePPF.dbo.Feature", con);
 
             try
             {
