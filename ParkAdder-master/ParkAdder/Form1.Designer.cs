@@ -62,7 +62,7 @@
             this.btnClear.Location = new System.Drawing.Point(178, 370);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(59, 23);
-            this.btnClear.TabIndex = 20;
+            this.btnClear.TabIndex = 9;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -72,7 +72,7 @@
             this.btnAddPark.Location = new System.Drawing.Point(17, 370);
             this.btnAddPark.Name = "btnAddPark";
             this.btnAddPark.Size = new System.Drawing.Size(142, 23);
-            this.btnAddPark.TabIndex = 19;
+            this.btnAddPark.TabIndex = 8;
             this.btnAddPark.Text = "Add Park to Database";
             this.btnAddPark.UseVisualStyleBackColor = true;
             this.btnAddPark.Click += new System.EventHandler(this.btnAddPark_Click);
@@ -82,7 +82,7 @@
             this.txtAddZip.Location = new System.Drawing.Point(29, 242);
             this.txtAddZip.Name = "txtAddZip";
             this.txtAddZip.Size = new System.Drawing.Size(208, 20);
-            this.txtAddZip.TabIndex = 18;
+            this.txtAddZip.TabIndex = 5;
             // 
             // label8
             // 
@@ -90,7 +90,7 @@
             this.label8.Location = new System.Drawing.Point(29, 226);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(50, 13);
-            this.label8.TabIndex = 17;
+            this.label8.TabIndex = 170;
             this.label8.Text = "Zip Code";
             // 
             // label7
@@ -108,7 +108,7 @@
             this.label6.Location = new System.Drawing.Point(29, 138);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(40, 13);
-            this.label6.TabIndex = 15;
+            this.label6.TabIndex = 150;
             this.label6.Text = "County";
             // 
             // label5
@@ -117,7 +117,7 @@
             this.label5.Location = new System.Drawing.Point(29, 97);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(45, 13);
-            this.label5.TabIndex = 14;
+            this.label5.TabIndex = 140;
             this.label5.Text = "Address";
             // 
             // label4
@@ -126,7 +126,7 @@
             this.label4.Location = new System.Drawing.Point(29, 53);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 13);
-            this.label4.TabIndex = 13;
+            this.label4.TabIndex = 130;
             this.label4.Text = "Park Name";
             // 
             // label3
@@ -135,7 +135,7 @@
             this.label3.Location = new System.Drawing.Point(94, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 13);
-            this.label3.TabIndex = 12;
+            this.label3.TabIndex = 20;
             this.label3.Text = "Add a Park";
             // 
             // txtAddCity
@@ -143,28 +143,28 @@
             this.txtAddCity.Location = new System.Drawing.Point(29, 201);
             this.txtAddCity.Name = "txtAddCity";
             this.txtAddCity.Size = new System.Drawing.Size(208, 20);
-            this.txtAddCity.TabIndex = 11;
+            this.txtAddCity.TabIndex = 4;
             // 
             // txtCounty
             // 
             this.txtCounty.Location = new System.Drawing.Point(29, 154);
             this.txtCounty.Name = "txtCounty";
             this.txtCounty.Size = new System.Drawing.Size(208, 20);
-            this.txtCounty.TabIndex = 10;
+            this.txtCounty.TabIndex = 3;
             // 
             // txtAddAddress
             // 
             this.txtAddAddress.Location = new System.Drawing.Point(29, 113);
             this.txtAddAddress.Name = "txtAddAddress";
             this.txtAddAddress.Size = new System.Drawing.Size(208, 20);
-            this.txtAddAddress.TabIndex = 9;
+            this.txtAddAddress.TabIndex = 2;
             // 
             // txtAddName
             // 
             this.txtAddName.Location = new System.Drawing.Point(29, 69);
             this.txtAddName.Name = "txtAddName";
             this.txtAddName.Size = new System.Drawing.Size(208, 20);
-            this.txtAddName.TabIndex = 8;
+            this.txtAddName.TabIndex = 1;
             this.txtAddName.Click += new System.EventHandler(this.Mount);
             // 
             // lboFeature
@@ -174,7 +174,7 @@
             this.lboFeature.Name = "lboFeature";
             this.lboFeature.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lboFeature.Size = new System.Drawing.Size(211, 147);
-            this.lboFeature.TabIndex = 6;
+            this.lboFeature.TabIndex = 12;
             // 
             // label2
             // 
@@ -182,7 +182,7 @@
             this.label2.Location = new System.Drawing.Point(298, 136);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
-            this.label2.TabIndex = 4;
+            this.label2.TabIndex = 111;
             this.label2.Text = "Feature";
             // 
             // label1
@@ -191,7 +191,7 @@
             this.label1.Location = new System.Drawing.Point(298, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 3;
+            this.label1.TabIndex = 300;
             this.label1.Text = "Name";
             // 
             // cboName
@@ -201,7 +201,7 @@
             this.cboName.Location = new System.Drawing.Point(298, 74);
             this.cboName.Name = "cboName";
             this.cboName.Size = new System.Drawing.Size(211, 21);
-            this.cboName.TabIndex = 2;
+            this.cboName.TabIndex = 10;
             this.cboName.SelectedIndexChanged += new System.EventHandler(this.cboName_SelectedIndexChanged);
             // 
             // Exit
@@ -209,7 +209,7 @@
             this.Exit.Location = new System.Drawing.Point(434, 344);
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(75, 23);
-            this.Exit.TabIndex = 1;
+            this.Exit.TabIndex = 14;
             this.Exit.Text = "Exit";
             this.Exit.UseVisualStyleBackColor = true;
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
@@ -219,7 +219,7 @@
             this.btnAddFeature.Location = new System.Drawing.Point(298, 344);
             this.btnAddFeature.Name = "btnAddFeature";
             this.btnAddFeature.Size = new System.Drawing.Size(104, 23);
-            this.btnAddFeature.TabIndex = 0;
+            this.btnAddFeature.TabIndex = 13;
             this.btnAddFeature.Text = "Add Features";
             this.btnAddFeature.UseVisualStyleBackColor = true;
             this.btnAddFeature.Click += new System.EventHandler(this.btnAddFeature_Click);
@@ -229,7 +229,7 @@
             this.btnRefresh.Location = new System.Drawing.Point(434, 106);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(75, 23);
-            this.btnRefresh.TabIndex = 21;
+            this.btnRefresh.TabIndex = 11;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
@@ -240,7 +240,7 @@
             this.lnkAbout.Location = new System.Drawing.Point(454, 379);
             this.lnkAbout.Name = "lnkAbout";
             this.lnkAbout.Size = new System.Drawing.Size(35, 13);
-            this.lnkAbout.TabIndex = 22;
+            this.lnkAbout.TabIndex = 15;
             this.lnkAbout.TabStop = true;
             this.lnkAbout.Text = "About";
             this.lnkAbout.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkAbout_LinkClicked);
@@ -250,14 +250,14 @@
             this.txtLong.Location = new System.Drawing.Point(29, 289);
             this.txtLong.Name = "txtLong";
             this.txtLong.Size = new System.Drawing.Size(208, 20);
-            this.txtLong.TabIndex = 23;
+            this.txtLong.TabIndex = 6;
             // 
             // txtLat
             // 
             this.txtLat.Location = new System.Drawing.Point(29, 335);
             this.txtLat.Name = "txtLat";
             this.txtLat.Size = new System.Drawing.Size(208, 20);
-            this.txtLat.TabIndex = 24;
+            this.txtLat.TabIndex = 7;
             // 
             // label9
             // 
@@ -265,7 +265,7 @@
             this.label9.Location = new System.Drawing.Point(30, 273);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(54, 13);
-            this.label9.TabIndex = 25;
+            this.label9.TabIndex = 250;
             this.label9.Text = "Longitude";
             // 
             // label10
@@ -274,7 +274,7 @@
             this.label10.Location = new System.Drawing.Point(30, 319);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(45, 13);
-            this.label10.TabIndex = 26;
+            this.label10.TabIndex = 260;
             this.label10.Text = "Latitude";
             // 
             // label11
@@ -283,7 +283,7 @@
             this.label11.Location = new System.Drawing.Point(295, 9);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(70, 13);
-            this.label11.TabIndex = 27;
+            this.label11.TabIndex = 270;
             this.label11.Text = "Add Features";
             // 
             // Form1

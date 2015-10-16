@@ -133,15 +133,15 @@ namespace ParkAdder
                 }
                 else
                 {
-                    SqlCommand cmd = new SqlCommand("insert into Park(ParkName, StreetAddress, City, County, ZipCode, Longitude, Latitude) values(@name, @address, @city, @county, @zip, @longitude, @latitude)", con);
+                    SqlCommand cmd = new SqlCommand("insert into Park(ParkName, StreetAddress, City, County, ZipCode, Longitude, Latitude) values(@name, @address, @city, @county, @zip, @latitude, @longitude)", con);
 
                     cmd.Parameters.AddWithValue("@name", txtAddName.Text);
                     cmd.Parameters.AddWithValue("@address", txtAddAddress.Text);
                     cmd.Parameters.AddWithValue("@city", txtAddCity.Text);
                     cmd.Parameters.AddWithValue("@county", txtCounty.Text);
                     cmd.Parameters.AddWithValue("@zip", txtAddZip.Text);
-                    cmd.Parameters.AddWithValue("@longitude", txtLong.Text);
                     cmd.Parameters.AddWithValue("@latitude", txtLat.Text);
+                    cmd.Parameters.AddWithValue("@longitude", txtLong.Text);
 
                     SqlDataReader reader;
                     reader = cmd.ExecuteReader();
