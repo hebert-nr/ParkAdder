@@ -145,6 +145,15 @@ namespace ParkAdder
 
                     SqlDataReader reader;
                     reader = cmd.ExecuteReader();
+
+                    txtAddAddress.Clear();
+                    txtAddName.Clear();
+                    txtAddCity.Clear();
+                    txtAddZip.Clear();
+                    txtCounty.Clear();
+                    txtLong.Clear();
+                    txtLat.Clear();
+
                     MessageBox.Show("Saved");
                     while (reader.Read())
                     {
