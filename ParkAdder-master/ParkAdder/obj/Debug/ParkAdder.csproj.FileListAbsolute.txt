@@ -45,4 +45,3 @@ Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.Properties.Resources
 Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.csproj.GenerateResource.Cache
 Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.exe
 Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.pdb
-Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.csprojResolveAssemblyReference.cache
