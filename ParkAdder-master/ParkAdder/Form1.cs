@@ -122,7 +122,7 @@ namespace ParkAdder
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            SqlCommand command = new SqlCommand("SELECT ParkID, ParkName FROM thePPF.dbo.Park", con);
+            SqlCommand command = new SqlCommand("SELECT ParkID, ParkName FROM thePPF.dbo.Park ORDER BY ParkId Desc", con);
             SqlCommand comFeat = new SqlCommand("Select FeatureID, FeatureName FROM thePPF.dbo.Feature", con);
 
             try
