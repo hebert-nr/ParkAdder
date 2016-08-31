@@ -46,3 +46,5 @@ Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.csproj.GenerateResou
 Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.exe
 Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.pdb
 Z:\ParkAdder\ParkAdder-master\ParkAdder\obj\Debug\ParkAdder.csprojResolveAssemblyReference.cache
+Z:\ParkAdder\ParkAdder-master\ParkAdder\bin\Debug\tidy.dll
+Z:\ParkAdder\ParkAdder-master\ParkAdder\bin\Debug\TidyHTML5Managed.dll

@@ -185,6 +185,7 @@ namespace ParkAdder
                 if (withErrors() == true)
                 {
                     MessageBox.Show("Please fill in all boxes before adding");
+                    con.Close();
 
                 }
                 else
